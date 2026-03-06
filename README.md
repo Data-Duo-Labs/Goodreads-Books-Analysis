@@ -90,10 +90,10 @@ Explored how book attributes influence reach:
 We treated this project like a **structured data science sprint**, documenting each stage from ideation to deployment.
 
 ### 1️⃣ Ideation & Architecture
-[[View Brainstorming & Workflow Notes (Google Docs)](https://docs.google.com/document/d/1FtraKUcTtWhhFXORc182eBlOinrglJ-6PxMv2xCjwF0/edit?usp=sharing)](#)
+[[View Brainstorming & Workflow Notes (Google Docs)](https://docs.google.com/document/d/1FtraKUcTtWhhFXORc182eBlOinrglJ-6PxMv2xCjwF0/edit?usp=sharing)]
 
 ### 2️⃣ Data Cleaning & EDA
-[[View EDA Tracker (Google Sheets)](https://docs.google.com/spreadsheets/d/1WmvuV2ILCUgYlSW53Rrdp1YgU4USCW46A0crQPzxyns/edit?usp=sharing)](#)
+[[View EDA Tracker (Google Sheets)](https://docs.google.com/spreadsheets/d/1WmvuV2ILCUgYlSW53Rrdp1YgU4USCW46A0crQPzxyns/edit?usp=sharing)]
 
 ### 3️⃣ Analysis Notebooks
 
@@ -121,10 +121,10 @@ Goodreads-Market-Analysis/
 │   └── final_merge.csv               # Cleaned dataset used for the app
 │
 ├── notebooks/
-│   ├── 01_mahak_cleaned.ipynb        # Data cleaning (Part 1)
-│   ├── 02_aaditya_cleaned.ipynb      # Data cleaning (Part 2)
-│   ├── 03_mahak_analysis.ipynb       # Series & market trends analysis
-│   └── 04_aaditya_analysis.ipynb     # Awards & attributes analysis
+│   ├── 01_aaditya_cleaned.ipynb        # Data cleaning (Part 1)
+│   ├── 02_mahak_cleaned.ipynb      # Data cleaning (Part 2)
+│   ├── 03_aaditya_analysis.ipynb       # Awards & attributes analysis
+│   └── 04_mahak_analysis.ipynb     # Series & market trends analysis
 │
 ├── app.py                            # Streamlit dashboard source code
 ├── requirements.txt                  # Deployment dependencies
@@ -138,8 +138,8 @@ Goodreads-Market-Analysis/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/mahakVishwa/Goodreads-Market-Analysis.git
-cd Goodreads-Market-Analysis
+git clone https://github.com/mahakVishwa/Goodreads-Books-Analysis.git
+cd Goodreads-Books-Analysis
 ```
 
 ### Install dependencies
