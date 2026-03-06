@@ -97,7 +97,7 @@ We treated this project like a **structured data science sprint**, documenting e
 ### 2️⃣ Data Cleaning & EDA
 [[View EDA Tracker (Google Sheets)](https://docs.google.com/spreadsheets/d/1WmvuV2ILCUgYlSW53Rrdp1YgU4USCW46A0crQPzxyns/edit?usp=sharing)]
 
-### 3️⃣ Analysis Notebooks
+### 3️⃣ Analysis Notebooks.
 
 We split the exploratory analysis to explore different perspectives of the market.
 
