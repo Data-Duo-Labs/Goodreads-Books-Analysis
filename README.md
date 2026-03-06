@@ -11,6 +11,7 @@ An end-to-end data analysis and interactive dashboard exploring decades of liter
 # 🎯 Project Overview
 
 This collaborative project analyzes a massive dataset of Goodreads books to identify macro market trends, author performance, and reader preferences.
+[[View StreamLit Dashboard](https://the-data-library.streamlit.app/)]
 
 We engineered a custom **Popularity Score** that weights:
 
@@ -20,7 +21,8 @@ We engineered a custom **Popularity Score** that weights:
 
 This allows books to be evaluated **beyond just their star rating**.
 
-The final deliverable is an **interactive web dashboard built in Python using Streamlit**, designed to visualize the anatomy of a successful book.
+The final **interactive web dashboard built in Python using Streamlit**, designed to visualize the anatomy of a successful book.
+
 
 ---
 
