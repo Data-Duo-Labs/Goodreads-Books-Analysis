@@ -163,4 +163,4 @@ streamlit run app.py
 Built by:
 
 - **Mahak Vishwakarma** — ([GitHub Profile](https://github.com/mahakVishwa))
-- **Aaditya Malviya** — [aaditya4-dev](https://github.com/aaditya4-dev))
+- **Aaditya Malviya** — ([aaditya4-dev](https://github.com/aaditya4-dev))
