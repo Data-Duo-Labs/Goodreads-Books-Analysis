@@ -32,7 +32,7 @@ MAIN_PALETTE = "viridis"
 # 2. LOAD & PREP DATA 
 @st.cache_data
 def load_and_prep_data():
-    df = pd.read_csv("final_merge.csv") 
+    df = pd.read_csv("data/final_merge.csv") 
     
     scaler = MinMaxScaler()
     df[['numRatings_norm','bbeVotes_norm','likedPercent_norm']] = scaler.fit_transform(df[['numRatings','bbeVotes','likedPercent']])
