@@ -11,6 +11,7 @@ An end-to-end data analysis and interactive dashboard exploring decades of liter
 # 🎯 Project Overview
 
 This collaborative project analyzes a massive dataset of Goodreads books to identify macro market trends, author performance, and reader preferences.
+[[View StreamLit Dashboard](https://the-data-library.streamlit.app/)]
 
 We engineered a custom **Popularity Score** that weights:
 
@@ -20,7 +21,8 @@ We engineered a custom **Popularity Score** that weights:
 
 This allows books to be evaluated **beyond just their star rating**.
 
-The final deliverable is an **interactive web dashboard built in Python using Streamlit**, designed to visualize the anatomy of a successful book.
+The final **interactive web dashboard built in Python using Streamlit**, designed to visualize the anatomy of a successful book.
+
 
 ---
 
@@ -90,12 +92,12 @@ Explored how book attributes influence reach:
 We treated this project like a **structured data science sprint**, documenting each stage from ideation to deployment.
 
 ### 1️⃣ Ideation & Architecture
-[[View Brainstorming & Workflow Notes (Google Docs)](https://docs.google.com/document/d/1FtraKUcTtWhhFXORc182eBlOinrglJ-6PxMv2xCjwF0/edit?usp=sharing)](#)
+[[View Brainstorming & Workflow Notes (Google Docs)](https://docs.google.com/document/d/1FtraKUcTtWhhFXORc182eBlOinrglJ-6PxMv2xCjwF0/edit?usp=sharing)]
 
 ### 2️⃣ Data Cleaning & EDA
-[[View EDA Tracker (Google Sheets)](https://docs.google.com/spreadsheets/d/1WmvuV2ILCUgYlSW53Rrdp1YgU4USCW46A0crQPzxyns/edit?usp=sharing)](#)
+[[View EDA Tracker (Google Sheets)](https://docs.google.com/spreadsheets/d/1WmvuV2ILCUgYlSW53Rrdp1YgU4USCW46A0crQPzxyns/edit?usp=sharing)]
 
-### 3️⃣ Analysis Notebooks
+### 3️⃣ Analysis Notebooks.
 
 We split the exploratory analysis to explore different perspectives of the market.
 
@@ -121,10 +123,10 @@ Goodreads-Market-Analysis/
 │   └── final_merge.csv               # Cleaned dataset used for the app
 │
 ├── notebooks/
-│   ├── 01_mahak_cleaned.ipynb        # Data cleaning (Part 1)
-│   ├── 02_aaditya_cleaned.ipynb      # Data cleaning (Part 2)
-│   ├── 03_mahak_analysis.ipynb       # Series & market trends analysis
-│   └── 04_aaditya_analysis.ipynb     # Awards & attributes analysis
+│   ├── 01_aaditya_cleaned.ipynb        # Data cleaning (Part 1)
+│   ├── 02_mahak_cleaned.ipynb      # Data cleaning (Part 2)
+│   ├── 03_aaditya_analysis.ipynb       # Awards & attributes analysis
+│   └── 04_mahak_analysis.ipynb     # Series & market trends analysis
 │
 ├── app.py                            # Streamlit dashboard source code
 ├── requirements.txt                  # Deployment dependencies
@@ -138,8 +140,8 @@ Goodreads-Market-Analysis/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/mahakVishwa/Goodreads-Market-Analysis.git
-cd Goodreads-Market-Analysis
+git clone https://github.com/mahakVishwa/Goodreads-Books-Analysis.git
+cd Goodreads-Books-Analysis
 ```
 
 ### Install dependencies
@@ -161,4 +163,4 @@ streamlit run app.py
 Built by:
 
 - **Mahak Vishwakarma** — ([GitHub Profile](https://github.com/mahakVishwa))
-- **Aaditya Malviya** — [GitHub Profile](Aaditya's GitHub Link)
+- **Aaditya Malviya** — ([aaditya4-dev](https://github.com/aaditya4-dev))
